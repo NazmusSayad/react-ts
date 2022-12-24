@@ -1,6 +1,4 @@
 {
-  "compilerOptions": {
-    "composite": true
-  },
+  "compilerOptions": { "composite": true },
   "include": ["vite.config.ts"]
 }
