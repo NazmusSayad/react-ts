@@ -1,27 +1,6 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-
-    "baseUrl": ".",
-    "paths": {
-      "$slice/*": ["./src/store/slice/*"],
-      "$_InitialApp/*": ["src/features/_InitialApp/*"],
-      "$api/*": ["./src/api/*"],
-      "$assets/*": ["./src/assets/*"],
-      "$components/*": ["./src/components/*"],
-      "$config/*": ["./src/config/*"],
-      "$data/*": ["./src/data/*"],
-      "$features/*": ["./src/features/*"],
-      "$hooks/*": ["./src/hooks/*"],
-      "$layouts/*": ["./src/layouts/*"],
-      "$pages/*": ["./src/pages/*"],
-      "$store/*": ["./src/store/*"],
-      "$styles/*": ["./src/styles/*"],
-      "$utils/*": ["./src/utils/*"],
-      "$src/*": ["./src/*"]
-    }
+    "composite": true
   },
   "include": ["vite.config.ts"]
 }
