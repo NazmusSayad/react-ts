@@ -7,7 +7,7 @@
     "baseUrl": ".",
     "paths": {
       "$slice/*": ["./src/store/slice/*"],
-      "$_InitialApp/*": ["./src/_InitialApp/*"],
+      "$_InitialApp/*": ["src/features/_InitialApp/*"],
       "$api/*": ["./src/api/*"],
       "$assets/*": ["./src/assets/*"],
       "$components/*": ["./src/components/*"],

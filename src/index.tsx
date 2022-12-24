@@ -2,7 +2,6 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import { createRoot } from 'react-dom/client'
 import ErrorBoundary from 'error-boundary-react'
-// import store from './store'
 import store from '$store'
 
 import className from 'classnames'

@@ -53,9 +53,11 @@ const InitialApp = () => {
           <Route path="/*" element={<Navigate to="404" />} />
         </Routes>
 
-        <Link className={`${css.link} ${css.random}`} to={'/random'}>
-          Random
-        </Link>
+        <div>
+          <Link className={`${css.link} ${css.random}`} to={'/random'}>
+            Random
+          </Link>
+        </div>
       </BrowserRouter>
     </>
   )

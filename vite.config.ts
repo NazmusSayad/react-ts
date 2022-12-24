@@ -1,8 +1,7 @@
-import fs from 'fs'
 import path from 'path'
 import { defineConfig } from 'vite'
 import vitePWA from 'vite-pwa'
-import viteVSCode from 'vite-vscode'
+import viteVSCode, { createAlias } from 'vite-vscode'
 import react from '@vitejs/plugin-react'
 import svgr from '@honkhonk/vite-plugin-svgr'
 
@@ -13,8 +12,13 @@ const config = {
   assets: 'assets',
 }
 
-// @ts-ignore
-const plugins = [react(), svgr.default(), vitePWA(), viteVSCode()]
+const plugins = [
+  react(),
+  // @ts-ignore
+  svgr.default(),
+  vitePWA(),
+  viteVSCode({ jsconfig: false }),
+]
 
 const css = {
   modules: {
@@ -32,12 +36,7 @@ const css = {
 const resolve = {
   alias: {
     $slice: path.join(srcDir, '/store/slice'),
-    ...Object.fromEntries(
-      fs
-        .readdirSync(srcDir)
-        .filter((t) => fs.lstatSync(path.join(srcDir, t)).isDirectory())
-        .map((t) => [`$${t}`, path.join(srcDir, t)])
-    ),
+    ...createAlias('$', srcDir),
     $src: srcDir,
   },
 }
