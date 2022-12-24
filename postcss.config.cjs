@@ -3,11 +3,12 @@ const isDevMode = process.env.NODE_ENV === 'development'
 
 const plugins = []
 
-isDevMode ||
+if (!isDevMode) {
   plugins.push(
     postcssPresetEnv({
       stage: 0,
     })
   )
+}
 
 module.exports = { plugins }
