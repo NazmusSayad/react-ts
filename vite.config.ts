@@ -17,7 +17,7 @@ const plugins = [
   // @ts-ignore
   svgr.default(),
   vitePWA(),
-  viteVSCode({ jsconfig: false }),
+  viteVSCode(),
 ]
 
 const css = {

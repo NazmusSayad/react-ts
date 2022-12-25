@@ -8,7 +8,3 @@ const store = configureStore({
 })
 
 export default store
-window.$store = store
-declare global {
-  var $store: typeof store
-}

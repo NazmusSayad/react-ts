@@ -7,15 +7,15 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "latest",
-    "classnames": "latest",
     "css-reset-plus": "latest",
     "error-boundary-react": "latest",
+    "get-classnames": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-redux": "latest",
     "react-router-dom": "latest",
     "use-react-api": "latest",
-    "vite-vscode": "^1.0.2"
+    "vite-vscode": "latest"
   },
   "devDependencies": {
     "@honkhonk/vite-plugin-svgr": "latest",
