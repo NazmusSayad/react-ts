@@ -8,9 +8,8 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "latest",
-    "class-function": "^1.0.1",
     "error-boundary-react": "latest",
-    "get-classnames": "^1.0.8",
+    "get-classnames": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-redux": "latest",
