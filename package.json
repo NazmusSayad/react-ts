@@ -8,19 +8,20 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "latest",
+    "class-function": "^1.0.1",
     "error-boundary-react": "latest",
-    "get-classnames": "latest",
+    "get-classnames": "^1.0.8",
     "react": "latest",
     "react-dom": "latest",
     "react-redux": "latest",
     "react-router-dom": "latest",
-    "tailwind-variant-group": "^1.0.1",
     "use-react-api": "latest"
   },
   "devDependencies": {
     "@honkhonk/vite-plugin-svgr": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
+    "tailwind-variant-group": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
     "css-reset-plus": "latest",
