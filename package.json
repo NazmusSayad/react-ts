@@ -14,23 +14,24 @@
     "react-dom": "latest",
     "react-redux": "latest",
     "react-router-dom": "latest",
+    "tailwind-variant-group": "^1.0.1",
     "use-react-api": "latest"
   },
   "devDependencies": {
-    "vite-vscode": "latest",
-    "css-reset-plus": "latest",
     "@honkhonk/vite-plugin-svgr": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
-    "tailwindcss-theme-swapper": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
+    "css-reset-plus": "latest",
     "postcss-preset-env": "latest",
     "sass": "latest",
     "tailwindcss": "latest",
+    "tailwindcss-theme-swapper": "latest",
     "typescript": "latest",
     "vite": "latest",
-    "vite-pwa": "latest"
+    "vite-pwa": "latest",
+    "vite-vscode": "latest"
   },
   "browserslist": {
     "development": [

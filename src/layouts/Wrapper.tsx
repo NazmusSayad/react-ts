@@ -2,7 +2,7 @@ import { PropsWithChildren } from 'react'
 
 const Wrapper = ({ className, children, ...props }: PropsWithChildren<any>) => {
   return (
-    <div {...props} className={$cn('my-auto w-full max-w-[144rem]', className)}>
+    <div {...props} className={$cn('wrapper', className)}>
       {children}
     </div>
   )

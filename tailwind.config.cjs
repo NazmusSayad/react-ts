@@ -30,7 +30,7 @@ const themeSwapper = require('tailwindcss-theme-swapper')({
     },
     {
       name: 'dark',
-      selectors: ['.theme-dark'],
+      selectors: ['.dark'],
       theme: {
         colors: { clr: darkColorsObj },
       },
@@ -39,7 +39,10 @@ const themeSwapper = require('tailwindcss-theme-swapper')({
 })
 
 module.exports = {
-  content: ['./src/**/*.{jsx,tsx}'],
+  content: {
+    files: ['./src/**/*.{jsx,tsx}'],
+    transform: require('tailwind-variant-group').default,
+  },
   theme: {
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],

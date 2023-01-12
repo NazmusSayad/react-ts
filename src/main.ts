@@ -1,11 +1,11 @@
-import store from '$store'
 import getClassName from 'get-classnames'
+import store from '$store'
 
 declare global {
-  var $store: typeof store
   var $cn: typeof getClassName
+  var $store: typeof store
 }
 
-window.$store = store
 window.$cn = getClassName
+window.$store = store
 import './index'

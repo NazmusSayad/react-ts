@@ -1,9 +1,9 @@
+const isProdMode = process.env.NODE_ENV == 'production'
 const postcssPresetEnv = require('postcss-preset-env')
-const isDevMode = process.env.NODE_ENV === 'development'
 
 const plugins = [require('tailwindcss')]
 
-if (!isDevMode) {
+if (isProdMode) {
   plugins.push(
     postcssPresetEnv({
       stage: 0,
