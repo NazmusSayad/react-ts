@@ -1,4 +1,4 @@
-import css from './RootLayout.scss'
+import css from './RootLayout.module.scss'
 import { PropsWithChildren } from 'react'
 
 const RootLayout = ({
