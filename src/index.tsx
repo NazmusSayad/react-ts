@@ -8,8 +8,8 @@ import './styles/index.scss'
 import App from './App'
 import ErrorBoundary from 'error-boundary-react'
 
-const rootElement = document.getElementById('Root')
-const root = createRoot(rootElement as any)
+const rootElement = document.getElementById('Root')!
+const root = createRoot(rootElement)
 
 root.render(
   <Provider store={store}>
