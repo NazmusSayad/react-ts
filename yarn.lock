@@ -1429,6 +1429,11 @@ react-router@6.6.2:
   dependencies:
     "@remix-run/router" "1.2.1"
 
+react-rtk@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-rtk/-/react-rtk-1.0.1.tgz#943a8c97f453df19f29c8d488110914288e669ca"
+  integrity sha512-cV7NzWFfzKUmhd1pzkuyJv3CoyMND2Mp8PqiWJ3iu4xVzXqXp0j+JD78GOY8f/6RROkjudwBCEW0BwcD2bdahQ==
+
 react@latest:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

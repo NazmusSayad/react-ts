@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from 'react-rtk'
 
 const initialState = {
   jwt: null,
@@ -9,18 +9,15 @@ const sessionState = {
   jwt: localStorage.getItem('jwt-token'),
 }
 
-const authSlice = createSlice({
-  name: 'auth',
-  initialState: sessionState,
-  reducers: {
+export default createSlice(
+  'auth',
+  { ...sessionState },
+  {
     login(state, { payload }) {
       state.jwt = payload
     },
     logout(state) {
       Object.assign(state, initialState)
     },
-  },
-})
-
-export const authReducers = authSlice.reducer
-export default authSlice.actions
+  }
+)

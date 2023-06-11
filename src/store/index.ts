@@ -1,10 +1,7 @@
-import { configureStore } from '@reduxjs/toolkit'
-import { authReducers } from './slice/Auth'
+import { createStore } from 'react-rtk'
+import Auth from '$slice/Auth'
 
-const store = configureStore({
-  reducer: {
-    auth: authReducers,
-  },
-})
+const [store, useStore] = createStore(Auth)
 
+export { useStore }
 export default store

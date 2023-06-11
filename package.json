@@ -15,6 +15,7 @@
     "react-dom": "latest",
     "react-redux": "latest",
     "react-router-dom": "latest",
+    "react-rtk": "^1.0.1",
     "use-react-api": "latest"
   },
   "devDependencies": {
