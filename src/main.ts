@@ -1,12 +1,14 @@
 import getClassName from 'get-classnames'
-import store from '$store'
+import { actions, useStore } from '$store'
 
 window.$cn = getClassName
-window.$store = store
+window.$store = actions
+window.$useStore = useStore
 
 declare global {
   var $cn: typeof getClassName
-  var $store: typeof store
+  var $store: typeof actions
+  var $useStore: typeof useStore
 }
 
 import './index'

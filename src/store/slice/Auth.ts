@@ -9,15 +9,15 @@ const sessionState = {
   jwt: localStorage.getItem('jwt-token'),
 }
 
-export default createSlice(
-  'auth',
-  { ...sessionState },
-  {
-    login(state, { payload }) {
-      state.jwt = payload
+export default createSlice('auth', {
+  initialState: { ...sessionState },
+  reducers: {
+    login(state, jwt: string) {
+      state.jwt = jwt
     },
+
     logout(state) {
       Object.assign(state, initialState)
     },
-  }
-)
+  },
+})

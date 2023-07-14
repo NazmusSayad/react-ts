@@ -1429,10 +1429,10 @@ react-router@6.6.2:
   dependencies:
     "@remix-run/router" "1.2.1"
 
-react-rtk@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-rtk/-/react-rtk-1.0.1.tgz#943a8c97f453df19f29c8d488110914288e669ca"
-  integrity sha512-cV7NzWFfzKUmhd1pzkuyJv3CoyMND2Mp8PqiWJ3iu4xVzXqXp0j+JD78GOY8f/6RROkjudwBCEW0BwcD2bdahQ==
+react-rtk@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-rtk/-/react-rtk-1.0.2.tgz#162a19da42a2666f9e022191f439f51bcb776f30"
+  integrity sha512-B+vNV68dBJueRGsy217OjxNhJDRx6ndfoRdA9WGU0veU8Sm7nl7btlEKRfNlQSNk589vXCeXpMnE4x50J/31dA==
 
 react@latest:
   version "18.2.0"
