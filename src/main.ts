@@ -1,5 +1,5 @@
 import getClassName from 'get-classnames'
-import { actions, useStore } from '$store'
+import { actions, useStore } from '@/store'
 
 window.$cn = getClassName
 window.$store = actions

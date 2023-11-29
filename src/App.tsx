@@ -1,4 +1,4 @@
-import Wrapper from '$layouts/Wrapper'
+import Wrapper from '@/layouts/Wrapper'
 
 const App = () => {
   return (

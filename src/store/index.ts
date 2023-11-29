@@ -1,4 +1,4 @@
 import { createStore } from 'react-rtk'
-import Auth from '$slice/Auth'
+import Auth from './slice/Auth'
 
 export const [store, useStore, actions] = createStore(Auth)

@@ -15,7 +15,7 @@
     "react-dom": "latest",
     "react-redux": "latest",
     "react-router-dom": "latest",
-    "react-rtk": "^1.0.2",
+    "react-rtk": "latest",
     "use-react-api": "latest"
   },
   "devDependencies": {
@@ -28,8 +28,7 @@
     "sass": "latest",
     "typescript": "latest",
     "vite": "latest",
-    "vite-pwa": "latest",
-    "vite-vscode": "latest"
+    "vite-pwa": "latest"
   },
   "browserslist": {
     "development": [
