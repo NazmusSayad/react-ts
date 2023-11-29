@@ -1,5 +1,5 @@
-import ReactApi from 'use-react-api'
-const reactApi = ReactApi()
+import ReactHTTP from 'react-net-kit'
+const reactHTTP = ReactHTTP()
 
-export const { useApi, useApiOnce, createSuspenseApi } = reactApi
-export default reactApi
+export const { useApi, useApiOnce, createSuspense } = reactHTTP
+export default reactHTTP

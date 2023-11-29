@@ -13,10 +13,10 @@
     "get-classnames": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-net-kit": "latest",
     "react-redux": "latest",
     "react-router-dom": "latest",
-    "react-rtk": "latest",
-    "use-react-api": "latest"
+    "react-rtk": "latest"
   },
   "devDependencies": {
     "@honkhonk/vite-plugin-svgr": "latest",
